@@ -1,0 +1,101 @@
+.reward-page{
+    min-height:100vh;
+    background:linear-gradient(to bottom,#dff4ff,#f6fff2);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.reward-container{
+    width:100%;
+    max-width:650px;
+    background:white;
+    border-radius:25px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.celebration h1{
+    font-size:52px;
+    color:#ff4da6;
+    margin:0;
+}
+
+.celebration h2{
+    color:#333;
+    margin-top:10px;
+}
+
+.celebration p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.reward-card{
+    background:#f8fbff;
+    border-radius:18px;
+    padding:20px;
+    margin:20px 0;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.reward-card h2{
+    margin-bottom:10px;
+    color:#2e7d32;
+}
+
+.reward-card h1{
+    color:#ff4da6;
+    font-size:45px;
+    margin:10px 0;
+}
+
+.reward-card p{
+    margin:10px 0 0;
+    color:#555;
+}
+
+.big-emoji{
+    font-size:48px;
+    margin:8px 0 12px;
+    line-height:1;
+}
+
+.sticker-emoji{
+    font-size:42px;
+    margin:8px 0 15px;
+    line-height:1;
+}
+
+.flower-emoji{
+    font-size:42px;
+    margin:8px 0 15px;
+    line-height:1;
+}
+
+.continue-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:#45b649;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
+    transition:.3s;
+}
+
+.continue-btn:hover{
+    background:#2f9a36;
+}
+.dashboard-note{
+    margin-top:25px;
+    margin-bottom:15px;
+    font-size:16px;
+    color:#666;
+    font-style:italic;
+}

@@ -1,0 +1,54 @@
+.mood-page{
+    text-align:center;
+    padding:40px;
+    font-family:Arial,sans-serif;
+}
+
+.mood-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.mood-btn{
+    width:140px;
+    height:140px;
+    border:none;
+    border-radius:20px;
+    background:#EAF7FF;
+    font-size:22px;
+    cursor:pointer;
+    transition:.3s;
+    color:#2c3e50;
+
+    font-weight:700;
+}
+
+.mood-btn:hover{
+    transform:scale(1.05);
+}
+
+.selected{
+    background:#90EE90;
+}
+
+.emoji{
+    font-size:50px;
+}
+
+.continue-btn{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#4CAF50;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.continue-btn:hover{
+    background:#3b943f;
+}

@@ -1,0 +1,73 @@
+.activities-page {
+  min-height: 100vh;
+  padding-top: 80px;   /* move whole content down */
+  background-color: #f5fff5;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.activities-page h1 {
+  color: #2e7d32;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 15px 0;   /* remove top margin problem */
+}
+
+
+.activities-page p {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+
+/* Activity cards */
+.activity-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+
+.activity-card {
+  width: 250px;
+  padding: 30px 25px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Emoji/Image spacing */
+.activity-icon {
+  font-size: 70px;
+  margin-bottom: 20px;   /* gap between image and title */
+}
+
+
+.activity-card h2 {
+  color: #2e7d32;
+  font-size: 28px;
+  margin: 10px 0 15px;
+}
+
+
+.activity-card p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+
+.activity-card button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
