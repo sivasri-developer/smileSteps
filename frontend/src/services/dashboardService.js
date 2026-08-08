@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const CHILD_API = "http://localhost:5000/api/children";
-const MOOD_API = "http://localhost:5000/api/moods";
-const ACTIVITY_API = "http://localhost:5000/api/activity-progress";
+const CHILD_API = `${import.meta.env.VITE_API_URL}/api/children`;
+const MOOD_API = `${import.meta.env.VITE_API_URL}/api/moods`;
+const ACTIVITY_API = `${import.meta.env.VITE_API_URL}/api/activity-progress`;
 
 export const getChild = async (id) => {
   return await axios.get(`${CHILD_API}/${id}`);
